@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-family: 'arial';
+	font-size: 16px;
+}
+
+@media screen and (max-width: 414px){
+	#apropos{
+		flex-direction: column;
+	}
+	#more{
+		flex-direction: column;
+	}
+	nav a{
+		display: block;
+		padding: 10px;
+	}
+}
+
+#hero{
+	background: url('fond.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+nav{
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding: 20px;
+}
+
+#bandeau{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: rgba(255,255,255,0.5);
+}
+
+#contenu{
+	text-align: center;
+	padding: 10%;
+}
+
+#apropos{
+	display: flex;
+	background-color: BurlyWood;
+}
+
+#apropos_image{
+	flex: 1;
+}
+
+#apropos_image img{
+	max-width: 100%;
+	padding: 20px;
+}
+
+#apropos_texte {
+	flex: 2;
+	padding: 20px;
+	padding-left: 40px;
+	max-width: 100%;
+	font-family: 'Indie Flower', cursive;
+	font-size: 22px;
+	text-align: justify;
+}
+
+#more{
+	display: flex;
+	background-color: #666;
+	color: White;
+	padding: 20px;
+	text-align: center;
+}
+
+.more_item p{
+	text-align: justify;
+	padding: 20px;
+}
+
+h1{
+	color: Black;
+	font-size: 46px;
+	font-family: 'Lobster', cursive;
+	
+}
+
+h2{
+	color: Black;
+	font-size: 36px;
+	font-family: 'Indie Flower', cursive;
+}
+
+a{
+	color: White;
+	padding: 20px;
+	transition: ease 2s;
+	font-family: 'Indie Flower', cursive;
+	font-size: 24px;
+}
+
+a:hover{
+	color: DarkRed;
+}
+
+#contenu a{
+	color: DarkRed;
+	border: 2px solid DarkRed;
+	border-radius: 15px;
+	padding: 20px;
+	transition: ease 2s;
+	font-family: 'Indie Flower', cursive;
+} 
+
+#contenu a:hover{
+	color: White;
+	background-color: rgba(178,32,19,0.8);
+}
+
+#contenu img{
+	border-radius: 50px;
+}
